@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cats</string>
+    <string name="get_cat">Get Cat</string>
+    <string name="random_images_of_cats_loaded">random images of cats loaded</string>
+</resources>
