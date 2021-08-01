@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
         randomImageButton.setOnClickListener {
 
-        val url = "https://api.thecatapi.com/v1/images/search"
+        val url = "https://api.thecatapi.com/v1/images/search?api_key=9e4dbed9-3653-426f-9503-6a495e1f2659"
 
             val jsonArrayRequest = JsonArrayRequest(Request.Method.GET, url, null,
                 { response ->
